@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iandj.com</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-decoration: none;
+      }
+      body {
+        scroll-behavior: smooth;
+      }
+      .mystyle {
+        font-size: 30px;
+        color: #ff0000;
+        text-decoration: underline;
+      }
+      #top-bar {
+        background-color: #333333;
+        display: flex;
+      }
+      .menu-list {
+        display: flex;
+      }
+      .menu-list li {
+        padding: 20px;
+      }
+      .menu-list li:hover {
+        background-color: grey;
+      }
+
+      .menu-list li a {
+        color: #fff;
+        font-size: 18px;
+      }
+
+      #logo-img {
+        width: 57px;
+        height: 57px;
+      }
+      #menu {
+      }
+      #logo {
+        flex: auto;
+        padding-left: 10px;
+      }
+      #page-header {
+        background-image: url("/image/coffebg.jpg");
+        background-size: cover;
+        text-align: center;
+      }
+      #page-header h1 {
+        color: #fff;
+        padding: 20%;
+        text-shadow: 1px 1px 3px black;
+      }
+      #about-text {
+        text-align: center;
+        padding: 50px;
+        color: gray;
+      }
+      .coffee-img {
+        width: 300px;
+      }
+      #coffee-list {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #footer {
+        background: #333333;
+        padding: 15px;
+        text-align: center;
+      }
+      #footer p {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="page-container">
+      <div id="top-bar">
+        <div id="logo">
+          <a href="#">
+            <img src="image/logo.png" alt="i and j logo" id="logo-img"
+          /></a>
+        </div>
+        <nav id="menu">
+          <ul class="menu-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Complaints</a></li>
+            <li><a href="#about-text">About us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="page-header">
+        <h1>Welcome to I and J Coffee Shop</h1>
+      </div>
+      <div id="page-content">
+        <h3 style="text-align: center; padding-top: 10px;">About I and J</h3>
+        <p id="about-text">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat
+          reprehenderit quos, ut, libero expedita perferendis aperiam culpa
+          necessitatibus non labore numquam laudantium magni. Facere deleniti,
+          quis id voluptas autem officiis. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Ex suscipit dolorum optio porro delectus
+          accusantium iste distinctio ad voluptates voluptatum et eveniet
+          reprehenderit ullam impedit repudiandae aperiam in, maiores expedita.
+        </p>
+        <div id="coffee-list">
+          <div class="coffee-info">
+            <img src="image/coffee1.jpeg" class="coffee-img" />
+            <p>express la cremento</p>
+            <p>$200</p>
+            <a href="#">click here to buy</a>
+          </div>
+          <div class="coffee-info">
+            <img src="image/coffee2.jpg" class="coffee-img" />
+            <p>setra pase</p>
+            <p>$265</p>
+            <a href="#">click here to buy</a>
+          </div>
+          <div class="coffee-info">
+            <img src="image/coffee3.jpg" class="coffee-img" />
+            <p>tulet e penzo</p>
+            <p>$300</p>
+            <a href="#">click here to buy</a>
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+        <p>&copy; copyright 2020 IandJ.com</p>
+      </footer>
+    </div>
+  </body>
+</html>
